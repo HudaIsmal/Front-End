@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+div{
+  overflow: hidden;
+}
+
+  .header {
+    background-color:none;
+    /* padding: auto;  auto */
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+    /* padding-right:20px ; */
+
+  }
+ 
+ 
+  align-items: center;
+ 
+
+
+  .nav-link {
+    margin-right: 40px;
+    /* margin: 0; */
+    margin-bottom: 10px;
+  }
+  .nav-item {
+    list-style: none;
+    /* padding-top:25px ; */
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item a {
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-right: ;
+    /* padding-right:100px ; */
+    align-items: center;
+  }
+
+  .btn {
+    margin-right: 10px;
+margin-top: 10px;
+    margin-left: 10px;
+    top: 0;
+    right:0 ;
+  }
+ /* .nav-links a:hover, */
+  .nav-links a:active {
+    color: #FCA80F; 
+  }
+  
+  .btn-custom {
+    background-color: #1EAC53 !important; /*  background color */
+    color: #fff !important; /*  text color */ border color */
+  }
+  /* button of orange color */
+  .btn-custom-orange {
+    background-color: #FCA80F !important; /* background color */
+    color: #fff !important; /*text color */
+    border: 1px solid #FCA80F !important; /* border color */
+  }
+  /* for login  */
+  .round{
+    border-radius: 20px !important;
+  }
+
+  .home-img {
+    background-image: url('img/bg.png'); /*  background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    padding-bottom: 100px;
+   
+  }
+
+  @media screen and (max-width: 300px) {
+    .home-img{
+        background-image: url('img/bg.png'); /*  background image */
+    }
+  }
+  
+  
+  @media screen and (max-width: 1201px) {
+    .home-img {
+        background-image: url('img/bg.png'); /*  background image */
+    }
+  }
+  .green{
+    color:#1EAC53 ;
+  }
+  .orange{
+    color: #FCA80F;
+  }
+  .gray{
+    color: rgba(99, 99, 115, 1);
+  }
+  .bg-color-orange {
+    background-color: rgba(252, 168, 15, 0.13);
+    border-radius: 20px; 
+    padding: 5px;
+}
+/* .pading-pg2{
+  padding-top: 80px;
+  padding-left: 130px;
+  padding-right: 130px;
+
+  padding-bottom: 0px;
+} */
+  .pading{
+    padding-top: 130px;
+    padding-left: 0px;
+
+
+  }
+.me-auto {
+  margin-left: auto;
+  margin-right: auto !important;
+}
+  h1{
+    font-weight: bolder;
+    font-size: 40px;
+  }
+
+  /* 2nd page */
+  .Smooth-License-Experience{
+    background-image: url('img/pg 2.png'); /*  background image */
+    background-size: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .center-text {
+    text-align: center;
+  }
+
+  .column {
+    text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  }
+
+  .column h4{
+    margin-bottom: 20px;
+  }
+  
+  .column img {
+    max-width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+    margin-bottom: 30px;
+  }
+  /* for list in one line */
+  .inline-list {
+    list-style: none; 
+    /* padding: 5px;
+    margin: 5px; */
+  }
+
+  .inline-list li {
+    display: inline-block;
+    margin-right: 20px; 
+    font-size: 20px;
+  }
+  /* page 3 */
+  .AboutUs-img3 {
+    background-image: url('img/pg\ 3.png'); 
+    background-size: cover;
+    background-position: center;
+  
+  }
+ 
+  .centered-img {
+    max-width: 100%; 
+    max-height: 95%; 
+  
+    
+  }
+
+ 
+  
+ 
+  .rounded-box1 {
+    border-radius: 20px; 
+    background: linear-gradient(to bottom, rgba(133, 196, 66, 1), rgba(30, 172, 83, 1)); /* Add your gradient colors */
+    padding: 20px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 50px;
+ /* margin-bottom: 60px; */
+
+
+    text-align: center;
+    color: white; 
+  }
+.padingimg{
+  padding-left: 150px;
+  padding-right:0px ;
+  padding-top: 70px;
+}
+
+  .padding-pg3{
+    /* padding-left: 50px;
+    padding-right: 0px;
+    padding-top: 130px;
+    padding-bottom: 0px; */
+width: 500px;
+margin: auto;
+  }
+ /* page 4 */
+ .Salient-Features-img4 {
+  background: url(img/pg4.png) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+} 
+.pading-pg4{
+margin-top: 00px;
+margin-bottom: 80px;
+   
+}
+ 
+
+
+ .rounded-box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+   /* width: auto;
+    height: auto ; */
+   
+  }
+
+  .icon-img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+
+    background-position: center;
+  }
+  .txt{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin: 0px; */
+  }
+  /* page 5 */
+  .icon-col {
+    display: flex;
+    align-items: center;
+  }
+/* page 6 */
+
+.containerFAQ {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+button.btn-link[aria-expanded="true"]{
+  transform: rotate(45deg);
+}
+  .digit {
+    color: #1EAC53; 
+    margin-right: 10px; 
+  }
+  .list-group-item button {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    align-items: right;
+    margin-left: auto;
+    
+  }
+  .list-group-item button:hover{
+    color: #1EAC53;
+  }
+  .list-group-item {
+    border: none; 
+    padding: 10px;
+    margin-right: 0;
+  }
+  .list-group-item p{
+    padding-left: 50px;
+    display: inline-block; 
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  .list-group-item ul{
+    padding-left: 100px;
+    display: inline-block; 
+    margin-right: 10px;
+  }
+
+
+  .contact{
+    text-decoration: none;
+    color: #1EAC53;
+    /* padding-left: 110px; */
+
+
+  }
+  .leftalign{
+    text-align: left;
+    /* padding-left: 110px; */
+  }
+/* footer  */
+.footer-img5 {
+    background-image: url('img/footer.png'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    padding:80px ;
+    margin: 0;
+   
+  }
+  
+
+ .custom-col1 {
+    text-align: left;
+    padding-top: 200px;
+    /* padding-left: 40px;  */
+    color: white;
+  }
+
+  .custom-col2 {
+    text-align: right;
+    padding-top: 130px;
+    color: white;
+
+  }
+  .custom-col2 a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    text-align: right;
+
+  }
+.footer-img5 hr{
+    color: white;
+    padding: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+
+  footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+ /* Default image size */
+ .logo-img {
+    max-width: 70%;
+  
+  }
+
+  /* Medium screen size */
+  @media screen and (max-width: 601px) {
+    .logo-img {
+      width: 50%;
+    }
+  }
+
+  /* Large screen size */
+  @media screen and (max-width: 1201px) {
+    .logo-img {
+      width: 25%;
+    }
+  }
+.accordion-button::after{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");
+
+}
+  
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");
+  transform: rotate(45deg); /* Rotate the icon up to 45 degrees */
+}
+.marginbottom{
+  margin-bottom: 100px;
+}
